@@ -1,0 +1,13 @@
+
+.pagebutton-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagebutton-img {
+    height: 0.6rem;
+    object-fit: contain;
+    padding: 0 0.3rem;
+}

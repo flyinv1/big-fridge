@@ -1,0 +1,104 @@
+.menubar-container {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 8rem;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 var(--shadow);
+    z-index: 99;
+}
+
+.menubar-top {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menubar-image-container {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menubar-image {
+    width: 5rem;
+    object-fit: contain;
+}
+
+.menubar-button-container {
+    height: 3rem;
+}
+
+.menubar-bottom {
+
+}
+
+.menubar-copyright {
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: var(--border);
+    margin-bottom: 20px;
+}
+
+.menubutton-container {
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: height 300ms;
+}
+
+.menubutton-image {
+    width: 1.5rem;
+    object-fit: contain;
+    transition: filter 300ms;
+}
+
+.menubutton-label {
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    display: none;
+}
+
+.menubutton-container:hover {
+    cursor: pointer;
+    height: 4rem;
+}
+
+.menubutton-container:hover .menubutton-image {
+    filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.2));
+}
+
+.menubutton-container-active {
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menubutton-image-active {
+    width: 1.5rem;
+    object-fit: contain;
+    filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.2));
+}
+
+.menubutton-label-active {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--dark-accent);
+}

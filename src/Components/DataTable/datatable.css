@@ -1,0 +1,26 @@
+
+.datatable-container {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 var(--shadow);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+.datatable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.datatable-empty-row {
+
+}
+
+.datatable-empty {
+    width: 100%;
+    height: 3rem;
+    background-color: var(--off-white);
+    text-align: center;
+}

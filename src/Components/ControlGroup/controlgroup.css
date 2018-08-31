@@ -1,0 +1,34 @@
+.controlgroup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.controlgroup-title {
+    font-weight: 600;
+    font-size: 12px;
+    text-align: left;
+    color: var(--border);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.controlgroup-controls-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controlgroup-controls-wrapper > div {
+    margin-right: 1rem;
+}
+
+.controlgroup-controls-wrapper > div:last-child {
+    margin-right: 0;
+}
+
+.controlgroup-controls-wrapper > div div:only-child {
+    margin-right: 0;
+}

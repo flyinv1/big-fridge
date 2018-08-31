@@ -1,0 +1,68 @@
+
+.drawer-container {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 30rem;
+    top: 0;
+    background-color: var(--opaque);
+    transition: transform 300ms;
+    box-shadow: -4px 4px 10px 0 var(--shadow);
+}
+
+.drawer-container-hidden {
+    transform: translateX(30rem);
+}
+
+.drawer-inner-container {
+    height: 100%;
+    overflow: scroll;
+}
+
+.drawer-data-container {
+    margin: 6rem 2rem 8rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.drawer-data-container > div:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+.drawer-header {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--border);
+    text-transform: uppercase;
+}
+
+.drawer-filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.drawer-filter-toggle-container {
+    margin: 6rem 2rem 8rem 2rem;
+}
+
+.drawer-filter-confirm-bar {
+    position: absolute;
+    bottom: 0;
+    height: 6rem;
+    width: 100%;
+    border-top: 1px solid var(--border-light);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+
+.drawer-filter-confirm-button {
+    width: 10rem;
+    text-align: center;
+}

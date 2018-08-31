@@ -1,0 +1,73 @@
+
+
+.datatableheader {
+    height: 3rem;
+    user-select:none;
+}
+
+.datatableheader tr {
+    border-bottom: 0.5px solid var(--border);
+}
+
+.datatableheader:hover {
+    background-color: white;
+}
+
+.datatableheader th {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.datatableheader th:hover {
+    cursor: pointer;
+    color: var(--medium-accent);
+}
+
+.tableheader_0 {
+    padding-left: 4rem;
+    width: 12%;
+    color: var(--medium-text);
+    text-align: left;
+}
+
+.tableheader_1 {
+    width: 12%;
+    color: var(--medium-text);
+    text-align: left;
+}
+
+.tableheader_2 {
+    width: 15%;
+    color: var(--medium-text);
+    text-align: left;
+}
+
+.tableheader_3 {
+    width: 12%;
+    color: var(--medium-text);
+    text-align: left;
+}
+
+.tableheader_4 {
+    width: 12%;
+    color: var(--medium-text);
+    text-align: left;
+}
+
+.tableheader_5 {
+    width: 4%;
+    color: var(--medium-text);
+    padding-right: 4rem;
+    text-align: right;
+}
+
+.tableheader-active {
+    color: var(--dark-accent);
+}
+
+.datatableheader .tableheader-active:hover {
+    cursor: pointer;
+    color:var(--dark-accent);
+}

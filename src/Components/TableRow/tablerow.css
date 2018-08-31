@@ -1,0 +1,54 @@
+
+tr {
+    border-bottom: 1px solid var(--border-light);
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+tr:hover {
+    background-color: var(--off-white);
+}
+
+td {
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--medium-text);
+    border-spacing: 0;
+}
+
+
+.tablerow-container {
+    height: 2.5rem;
+}
+
+.tablerow-name {
+    padding-left: 4rem;
+    width: 12%;
+}
+
+.tablerow-type {
+    width: 12%;
+}
+
+.tablerow-store {
+    width: 15%;
+}
+
+.tablerow-purchase {
+    width: 12%;
+    text-align: left;
+}
+
+.tablerow-exp {
+    width: 12%;
+    text-align: left;
+}
+
+.tablerow-quantity {
+    width: 4%;
+    text-align: right;
+    font-weight: 400;
+    padding-right: 4rem;
+}

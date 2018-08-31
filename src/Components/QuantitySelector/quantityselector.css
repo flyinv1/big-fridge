@@ -1,0 +1,16 @@
+
+.quantityselector-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+.quantityselector-container > div {
+    margin-right: 1.5rem;
+}
+
+.quantityselector-container > div:first-child {
+    margin-left: 0.3rem;
+}

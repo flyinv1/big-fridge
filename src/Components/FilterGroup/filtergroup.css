@@ -1,0 +1,37 @@
+
+.filtergroup-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.filtergroup-toggle-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.filtergroup-toggle-container > div {
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+    width: 40%;
+}
+
+.filtergroup-basic {
+    display: flex;
+    flex-direction: column;
+}
+
+.filtergroup-basic > div {
+    padding-bottom: 0.5rem;
+}
+
+.filtergroup-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--border);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}

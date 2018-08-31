@@ -1,0 +1,27 @@
+
+.checkitem-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.25rem 0.3rem;
+    margin: 0.25rem 0.5rem 0 0;
+    user-select: none;
+    border-radius: 5px;
+}
+
+.checkitem-container > div:first-child {
+    margin: 0 1.5rem 0 0;
+}
+
+.checkitem-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--dark-text);
+    text-transform: uppercase;
+}
+
+.checkitem-container:hover {
+    cursor: pointer;
+    background-color: var(--off-white);
+}

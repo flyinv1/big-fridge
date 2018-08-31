@@ -1,0 +1,17 @@
+
+.pageentry-input {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--dark-accent);
+    border: none;
+    min-width: 3rem;
+    max-width: 4rem;
+}
+
+.pageentry-input:placeholder-shown {
+    color: var(--dark-accent);
+}
+
+.pageentry-input::placeholder {
+    color: var(--dark-accent);
+}

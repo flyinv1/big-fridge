@@ -1,0 +1,26 @@
+
+.checkbox-wrapper {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    background-color: var(--off-white);
+}
+
+.checkbox-wrapper-active {
+    border: 1px solid var(--medium-accent);
+}
+
+.checkbox-check {
+    position: relative;
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: var(--medium-accent);
+    border-radius: 3px;
+}
+
+.checkbox-wrapper:hover {
+    cursor: pointer;
+}

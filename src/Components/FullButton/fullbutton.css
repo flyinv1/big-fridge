@@ -1,0 +1,15 @@
+
+.fullbutton-inner-container {
+    width: 24rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fullbutton-focus {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--border);
+}
+

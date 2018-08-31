@@ -1,0 +1,25 @@
+
+.datahighlight-container {
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    background-color: white;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px 0 var(--shadow);
+    border-radius: 10px;
+}
+
+.datahighlight-value {
+    font-size: 56px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.datahighlight-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--border);
+}

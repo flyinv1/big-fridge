@@ -1,0 +1,18 @@
+
+:root {
+    --background: #F4F5F8;
+    --off-white: #FAFAFA;
+    --opaque: rgba(255, 255, 255, 0.97);
+    --dark-text: #333333;
+    --medium-text: #818181;
+    --dark-accent: #134074;
+    --medium-accent: #5F9DD8;
+    --light-accent: #CBE4FC;
+    --border: #AAAAAA;
+    --border-light: #E2E2E2;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --shadow-hover: rgba(0, 0, 0 , 0.3);
+    --cover: rgba(19, 64, 116, 0.05);
+    --red: #EF8787;
+    --yellow: #F2C268;
+}

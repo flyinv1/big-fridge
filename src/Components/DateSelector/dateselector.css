@@ -1,0 +1,19 @@
+
+.dateselector-input {
+    border: none;
+    max-width: 10rem;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--dark-accent);
+}
+
+.dateselector-input[type="date"] {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color:var(--dark-accent);
+}
+
+.dateselector-input[type="date"]::-webkit-textfield-decoration-container {
+    background-color: white;
+}

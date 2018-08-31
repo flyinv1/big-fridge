@@ -1,0 +1,48 @@
+
+.controlpanel-container {
+    width: 90%;
+    margin: auto;
+    height: 4em;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.controlpanel-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.controlpanel-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.controlpanel-right > div:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.controlpanel-left > div:first-child {
+    margin-right: 2rem;
+}
+
+.controlpanel-left > div:nth-child(2) {
+    margin-right: 2rem;
+}
+
+.controlpanel-date-arrow-img {
+    width: 1rem;
+    object-fit: contain;
+    align-self: flex-end;
+    margin-bottom: 0.6rem;
+    padding: 0 0.5rem;
+}
