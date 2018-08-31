@@ -36,4 +36,4 @@ Clicking on any of the table headers will sort the header by that key, *purchase
 
 **Sorting order**
 
-The direction button will toggle the sorting order between *ascending* and *descending*
+The direction button will toggle the sorting order between *ascending* and *descending.*
